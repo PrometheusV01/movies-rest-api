@@ -1,0 +1,22 @@
+{
+  "name": "mdb-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "nodemon": "^2.0.4"
+  }
+}
